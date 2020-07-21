@@ -1,3 +1,5 @@
 def nyc_pigeon_organizer(data)
-  # write your code here!
+  new_organizer = {}
+  data.each for |name, color, gender, lives|
+  new_organizer[:name]<< data[:name]
 end
